@@ -1,0 +1,1 @@
+# Matem-tica-Aplicada-Computacional-UniFG-2026.2
