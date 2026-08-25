@@ -1,0 +1,53 @@
+=============================================================================
+GUIA DE COMPILAÇÃO BARE-METAL - ATMega328P
+Disciplina: Matemática Aplicada Computacional
+Cursos: Ciência da Computação | Análise e Desenvolvimento de Sistemas (UniFG)
+=============================================================================
+
+Este documento contém os comandos necessários para compilar códigos C puro 
+para o microcontrolador ATMega328P utilizando o terminal do ambiente Linux 
+(GitHub Codespaces).
+
+-----------------------------------------------------------------------------
+PASSO 1: PREPARAÇÃO DO AMBIENTE (Instalação da Toolchain AVR)
+-----------------------------------------------------------------------------
+OBS: Esta etapa só precisa ser executada uma única vez ao criar o Codespace.
+
+1. No terminal, atualize a lista de pacotes do sistema:
+   sudo apt-get update
+
+2. Instale o compilador C para AVR, bibliotecas e ferramentas de binários:
+   sudo apt-get install gcc-avr avr-libc binutils-avr -y
+
+
+-----------------------------------------------------------------------------
+PASSO 2: COMPILAÇÃO DO CÓDIGO
+-----------------------------------------------------------------------------
+Sempre que modificar o seu código fonte (.c), repita os passos abaixo.
+
+1. No terminal, navegue até a pasta onde o seu arquivo está salvo. 
+   (Exemplo: se o arquivo estiver na pasta "Aula 02")
+   cd "Aula 02"
+
+2. Compile o código C para gerar o arquivo executável (.elf). 
+   Este comando define a otimização (-Os), a frequência do cristal (16 MHz) 
+   e o modelo exato do chip:
+   avr-gcc -Os -DF_CPU=16000000UL -mmcu=atmega328p -o programa.elf registradores-ddr-port.c
+
+   * Nota: Se o terminal não retornar nenhuma mensagem após este comando, 
+     a compilação foi um sucesso e não há erros de sintaxe no seu código!
+
+
+-----------------------------------------------------------------------------
+PASSO 3: GERAÇÃO DO ARQUIVO .HEX
+-----------------------------------------------------------------------------
+Microcontroladores e simuladores não leem arquivos .elf diretamente. É preciso 
+extrair as instruções para o formato Hexadecimal.
+
+1. Execute o comando abaixo para gerar o arquivo final:
+   avr-objcopy -O ihex -R .eeprom programa.elf programa.hex
+
+PRONTO!
+O arquivo "programa.hex" será gerado no mesmo diretório. Você pode fazer o 
+download deste arquivo e utilizá-lo em simuladores (como Wokwi ou Proteus) 
+ou para gravação direta nas placas do laboratório.
