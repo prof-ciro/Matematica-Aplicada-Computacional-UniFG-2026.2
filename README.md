@@ -10,5 +10,7 @@ Conograma
 
 25/08 - Aula 2: Álgebra Booleana no Hardware
 
+01/09 - Aula 3: Relações Binárias e a biblioteca itertools
+
 
 
