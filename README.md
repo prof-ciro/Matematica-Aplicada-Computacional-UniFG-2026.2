@@ -12,5 +12,7 @@ Conograma
 
 01/09 - Aula 3: Relações Binárias e a biblioteca itertools
 
+08/09 - Aula 4: Relações Binárias e propriedades de Relações
+
 
 
