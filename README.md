@@ -14,5 +14,10 @@ Conograma
 
 08/09 - Aula 4: Relações Binárias e propriedades de Relações
 
+15/09 e 22/09: Eventos UniFG (aula transferida para eventos de TI e Aula Magna no Campus)
+
+29/09: Revisão geral e exercícios
+
+
 
 
