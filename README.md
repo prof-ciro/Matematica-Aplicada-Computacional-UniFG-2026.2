@@ -18,6 +18,9 @@ Conograma
 
 29/09: Revisão geral e exercícios
 
+06/10: Revisão geral e exercícios
+
+
 
 
 
