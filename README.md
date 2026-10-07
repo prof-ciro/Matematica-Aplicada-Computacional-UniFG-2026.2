@@ -16,9 +16,14 @@ Conograma
 
 15/09 e 22/09: Eventos UniFG (aula transferida para eventos de TI e Aula Magna no Campus)
 
-29/09: Revisão geral e exercícios
+29/09 - Aula 5: Revisão geral e exercícios (revisitar todos os slides anteriores)
 
-06/10: Revisão geral e exercícios
+06/10 - Aula 6: Revisão geral e exercícios
+
+13/10 - Aula 7: Fundamentos da biblioteca Pandas
+
+20/10 - Aula 8: Avaliação A1 em primeira oportunidade
+
 
 
 
