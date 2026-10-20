@@ -22,7 +22,9 @@ Conograma
 
 13/10 - Aula 7: Fundamentos da biblioteca Pandas
 
-20/10 - Aula 8: Avaliação A1 em primeira oportunidade
+19/10 - Avaliação A1 em primeira oportunidade (Teórico)
+
+20/10 - Aula 8: Álgebra Relacional com a biblioteca Pandas
 
 
 
