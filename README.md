@@ -2,6 +2,8 @@
 
 Reunirei neste espaço Notebooks Jupytere demais arquivos com aplicações práticas a serem desenvolvidas na disciplina de Matemática Aplicada Computacional em 2026.2. Quaisquer dúvidas, contatar: ciro.chaves@ulife.com.br.
 
+Repositório OneDrive: [Clique aqui](https://animaedu-my.sharepoint.com/:f:/g/personal/ciro_chaves_ulife_com_br/IgDRRCAmmgJNRJoRaJu0v5JSAQwHJsd5mqeYTQ0-KdN8zNA)
+
 Conograma
 
 11/08 - Aula 0: Aula magna
