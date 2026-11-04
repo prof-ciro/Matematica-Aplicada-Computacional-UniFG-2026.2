@@ -31,9 +31,3 @@ Conograma
 27/10 - Aula 9: Revisão e Exercícios de Álgebra Relacional
 
 10/11 - Aula 10: Fundamentos de Contagem e Estatística com a biblioteca Pandas
-
-
-
-
-
-
